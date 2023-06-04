@@ -1,0 +1,36 @@
+{
+  "name": "recursos-humanos",
+  "version": "1.0.0",
+  "description": "API REST RR.HH",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zapatasaul/recursos-humanos.git"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "rr.hh",
+    "recursos",
+    "humanos"
+  ],
+  "author": "Saul Zapata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zapatasaul/recursos-humanos/issues"
+  },
+  "homepage": "https://github.com/zapatasaul/recursos-humanos#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
